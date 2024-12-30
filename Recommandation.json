@@ -1,0 +1,79 @@
+[
+    {
+        "type": "cvm",
+        "id": "459",
+        "href": "https://api-staging.ooredoo.dz/tmf-api/recommendationManagement/v1/queryProductRecommendation/459",
+        "recommendationType": "product",
+        "productOrderItem": [
+            {
+                "type": "FORFAIT FIDÉLITÉ",
+                "referredType": "اشتراك الوفاء",
+                "entityId": "BTL_24H_SMART_70DZD_1Go",
+                "itemId": "1",
+                "name": "LOYALTY PACKAGE"
+            }
+        ],
+        "recommendationItem": [
+            {
+                "type": "instance",
+                "id": "460",
+                "product": {
+                    "productCharacteristic": [
+                        {
+                            "baseType": "national",
+                            "type": "allowance",
+                            "id": "BTL_24H_SMART_70DZD_1Go_data",
+                            "name": "data",
+                            "valueType": "GB",
+                            "value": "1",
+                            "isRoaming": false,
+                            "isUnlimitedUsage": false
+                        },
+                        {
+                            "baseType": "home",
+                            "type": "allowance",
+                            "id": "BTL_24H_SMART_70DZD_1Go_voice_onnet",
+                            "name": "voice",
+                            "valueType": "minutes",
+                            "value": "",
+                            "isRoaming": false,
+                            "isUnlimitedUsage": true
+                        },
+                        {
+                            "baseType": "national",
+                            "type": "allowance",
+                            "id": "BTL_24H_SMART_70DZD_1Go_voice_allnet",
+                            "name": "voice",
+                            "valueType": "minutes",
+                            "value": "5",
+                            "isRoaming": false,
+                            "isUnlimitedUsage": false
+                        }
+                    ]
+                },
+                "productPrice": [
+                    {
+                        "priceType": "PRICE",
+                        "price": {
+                            "dutyFreeAmount": {
+                                "value": 70
+                            }
+                        }
+                    },
+                    {
+                        "priceType": "DISCOUNT",
+                        "price": {
+                            "dutyFreeAmount": {
+                                "value": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "image": "P1T3C2",
+        "is-dynamic": false,
+        "periodic-amount": 1,
+        "periodic-unit": "day"
+    }
+]
